@@ -37,7 +37,9 @@
 				<th id="header_Idcity">Idcity<% if (page.orderBy == 'Idcity') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 				<th id="header_State">State<% if (page.orderBy == 'State') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 				<th id="header_Institution">Institution<% if (page.orderBy == 'Institution') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
+<!--
 				<th id="header_Citypublic">Citypublic<% if (page.orderBy == 'Citypublic') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
+-->
 				<th id="header_City">City<% if (page.orderBy == 'City') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 				<th id="header_Citycode">Citycode<% if (page.orderBy == 'Citycode') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 
@@ -49,7 +51,7 @@
 				<td><%= _.escape(item.get('idcity') || '') %></td>
 				<td><%= _.escape(item.get('state') || '') %></td>
 				<td><%= _.escape(item.get('institution') || '') %></td>
-				<td><%= _.escape(item.get('citypublic') || '') %></td>
+			<!--	<td><%= _.escape(item.get('citypublic') || '') %></td> -->
 				<td><%= _.escape(item.get('city') || '') %></td>
 				<td><%= _.escape(item.get('citycode') || '') %></td>
 

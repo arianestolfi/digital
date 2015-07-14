@@ -1,7 +1,6 @@
 <?php
 	$this->assign('title','DIGITAL | Expositions');
 	$this->assign('nav','expositions');
-
 	$this->display('_Header.tpl.php');
 ?>
 
@@ -39,7 +38,7 @@
 				<th id="header_Location">Location<% if (page.orderBy == 'Location') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 				<th id="header_Curator">Curator<% if (page.orderBy == 'Curator') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 				<th id="header_Initialdate">Initialdate<% if (page.orderBy == 'Initialdate') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
-<!-- UNCOMMENT TO SHOW ADDITIONAL COLUMNS
+
 				<th id="header_Enddate">Enddate<% if (page.orderBy == 'Enddate') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 				<th id="header_Description">Description<% if (page.orderBy == 'Description') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 				<th id="header_Notes">Notes<% if (page.orderBy == 'Notes') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
@@ -49,7 +48,7 @@
 				<th id="header_Iscarriedbyotherinstitution">Iscarriedbyotherinstitution<% if (page.orderBy == 'Iscarriedbyotherinstitution') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 				<th id="header_Isinternational">Isinternational<% if (page.orderBy == 'Isinternational') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 				<th id="header_Otherinfo">Otherinfo<% if (page.orderBy == 'Otherinfo') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
--->
+
 			</tr>
 		</thead>
 		<tbody>
@@ -60,7 +59,7 @@
 				<td><%= _.escape(item.get('location') || '') %></td>
 				<td><%= _.escape(item.get('curator') || '') %></td>
 				<td><%= _.escape(item.get('initialdate') || '') %></td>
-<!-- UNCOMMENT TO SHOW ADDITIONAL COLUMNS
+
 				<td><%= _.escape(item.get('enddate') || '') %></td>
 				<td><%= _.escape(item.get('description') || '') %></td>
 				<td><%= _.escape(item.get('notes') || '') %></td>
@@ -70,7 +69,7 @@
 				<td><%= _.escape(item.get('iscarriedbyotherinstitution') || '') %></td>
 				<td><%= _.escape(item.get('isinternational') || '') %></td>
 				<td><%= _.escape(item.get('otherinfo') || '') %></td>
--->
+
 			</tr>
 		<% }); %>
 		</tbody>

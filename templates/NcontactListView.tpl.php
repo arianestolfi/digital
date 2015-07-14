@@ -39,14 +39,14 @@
 				<th id="header_Company">Company<% if (page.orderBy == 'Company') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 				<th id="header_CountyTaxcode">County Taxcode<% if (page.orderBy == 'CountyTaxcode') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 				<th id="header_FederalTaxcode">Federal Taxcode<% if (page.orderBy == 'FederalTaxcode') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
-<!-- UNCOMMENT TO SHOW ADDITIONAL COLUMNS
+
 				<th id="header_Identity">Identity<% if (page.orderBy == 'Identity') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 				<th id="header_Name">Name<% if (page.orderBy == 'Name') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 				<th id="header_StateTaxcode">State Taxcode<% if (page.orderBy == 'StateTaxcode') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 				<th id="header_Uri">Uri<% if (page.orderBy == 'Uri') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 				<th id="header_Urla">Urla<% if (page.orderBy == 'Urla') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
 				<th id="header_Institution">Institution<% if (page.orderBy == 'Institution') { %> <i class='icon-arrow-<%= page.orderDesc ? 'up' : 'down' %>' /><% } %></th>
--->
+
 			</tr>
 		</thead>
 		<tbody>
@@ -57,14 +57,14 @@
 				<td><%= _.escape(item.get('company') || '') %></td>
 				<td><%= _.escape(item.get('countyTaxcode') || '') %></td>
 				<td><%= _.escape(item.get('federalTaxcode') || '') %></td>
-<!-- UNCOMMENT TO SHOW ADDITIONAL COLUMNS
+
 				<td><%= _.escape(item.get('identity') || '') %></td>
 				<td><%= _.escape(item.get('name') || '') %></td>
 				<td><%= _.escape(item.get('stateTaxcode') || '') %></td>
 				<td><%= _.escape(item.get('uri') || '') %></td>
 				<td><%= _.escape(item.get('urla') || '') %></td>
 				<td><%= _.escape(item.get('institution') || '') %></td>
--->
+
 			</tr>
 		<% }); %>
 		</tbody>

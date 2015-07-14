@@ -97,6 +97,9 @@
                                 <li <?php if ($this->nav=='roles') { echo 'class="active"'; } ?>><a href="./roles">Roles</a></li>
                                 <li <?php if ($this->nav=='users') { echo 'class="active"'; } ?>><a href="./users">Users</a></li>
                                 <li <?php if ($this->nav=='userroles') { echo 'class="active"'; } ?>><a href="./userroles">Userroles</a></li>
+                                <li <?php if ($this->nav=='ncontacts') { echo 'class="active"'; } ?>><a href="./ncontacts">Ncontacts</a></li>
+                                <li <?php if ($this->nav=='nhistories') { echo 'class="active"'; } ?>><a href="./nhistories">Nhistories</a></li>
+                                <li <?php if ($this->nav=='nreferences') { echo 'class="active"'; } ?>><a href="./nreferences">Nreferences</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -156,9 +159,6 @@
                                 <li <?php if ($this->nav=='itemdescriptions') { echo 'class="active"'; } ?>><a href="./itemdescriptions">Itemdescriptions</a></li>
                                 <li <?php if ($this->nav=='itemdimensions') { echo 'class="active"'; } ?>><a href="./itemdimensions">Itemdimensions</a></li>
                                 <li <?php if ($this->nav=='iteminscriptions') { echo 'class="active"'; } ?>><a href="./iteminscriptions">Iteminscriptions</a></li>
-                                <li <?php if ($this->nav=='ncontacts') { echo 'class="active"'; } ?>><a href="./ncontacts">Ncontacts</a></li>
-                                <li <?php if ($this->nav=='nhistories') { echo 'class="active"'; } ?>><a href="./nhistories">Nhistories</a></li>
-                                <li <?php if ($this->nav=='nreferences') { echo 'class="active"'; } ?>><a href="./nreferences">Nreferences</a></li>
                                 <li <?php if ($this->nav=='physicaldescriptions') { echo 'class="active"'; } ?>><a href="./physicaldescriptions">Physicaldescriptions</a></li>
                                 <li <?php if ($this->nav=='references') { echo 'class="active"'; } ?>><a href="./references">References</a></li>
                                 <li <?php if ($this->nav=='referencemedias') { echo 'class="active"'; } ?>><a href="./referencemedias">ReferenceMedias</a></li>
