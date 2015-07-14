@@ -194,28 +194,28 @@
 				<div id="inventoryidInputContainer" class="control-group">
 					<label class="control-label" for="inventoryid">Inventoryid</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="inventoryid" placeholder="Inventoryid" value="<%= _.escape(item.get('inventoryid') || '') %>">
+						<input type="text" class="input-xlarge" id="inventoryid" placeholder="codigo0x_000X" value="<%= _.escape(item.get('inventoryid') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="uritypeInputContainer" class="control-group">
 					<label class="control-label" for="uritype">Uritype</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="uritype" placeholder="Uritype" value="<%= _.escape(item.get('uritype') || '') %>">
+						<input type="text" class="input-xlarge" id="uritype" placeholder="-" value="<%= _.escape(item.get('uritype') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="uriInputContainer" class="control-group">
 					<label class="control-label" for="uri">Uri</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="uri" placeholder="Uri" value="<%= _.escape(item.get('uri') || '') %>">
+						<input type="text" class="input-xlarge" id="uri" placeholder="-" value="<%= _.escape(item.get('uri') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="keywordsInputContainer" class="control-group">
 					<label class="control-label" for="keywords">Keywords</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="keywords" placeholder="Keywords" value="<%= _.escape(item.get('keywords') || '') %>">
+						<input type="text" class="input-xlarge" id="keywords" placeholder="palavras chave" value="<%= _.escape(item.get('keywords') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
@@ -229,117 +229,117 @@
 				<div id="uidtypeInputContainer" class="control-group">
 					<label class="control-label" for="uidtype">Uidtype</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="uidtype" placeholder="Uidtype" value="<%= _.escape(item.get('uidtype') || '') %>">
+						<input type="text" class="input-xlarge" id="uidtype" placeholder="-" value="<%= _.escape(item.get('uidtype') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="uidInputContainer" class="control-group">
 					<label class="control-label" for="uid">Uid</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="uid" placeholder="Uid" value="<%= _.escape(item.get('uid') || '') %>">
+						<input type="text" class="input-xlarge" id="uid" placeholder="-" value="<%= _.escape(item.get('uid') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="classInputContainer" class="control-group">
 					<label class="control-label" for="class">Class</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="class" placeholder="Class" value="<%= _.escape(item.get('class') || '') %>">
+						<input type="text" class="input-xlarge" id="class" placeholder="par ou impar" value="<%= _.escape(item.get('class') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="typeInputContainer" class="control-group">
 					<label class="control-label" for="type">Type</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="type" placeholder="Type" value="<%= _.escape(item.get('type') || '') %>">
+						<input type="text" class="input-xlarge" id="type" placeholder="poema texto conto titulo" value="<%= _.escape(item.get('type') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="iseletronicInputContainer" class="control-group">
 					<label class="control-label" for="iseletronic">Iseletronic</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="iseletronic" placeholder="Iseletronic" value="<%= _.escape(item.get('iseletronic') || '') %>">
+						<input type="text" class="input-xlarge" id="iseletronic" placeholder="-" value="<%= _.escape(item.get('iseletronic') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="creationdateInputContainer" class="control-group">
 					<label class="control-label" for="creationdate">Creationdate</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="creationdate" placeholder="Creationdate" value="<%= _.escape(item.get('creationdate') || '') %>">
+						<input type="text" class="input-xlarge" id="ano" placeholder="Creationdate" value="<%= _.escape(item.get('creationdate') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="acquisitiondateInputContainer" class="control-group">
 					<label class="control-label" for="acquisitiondate">Acquisitiondate</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="acquisitiondate" placeholder="Acquisitiondate" value="<%= _.escape(item.get('acquisitiondate') || '') %>">
+						<input type="text" class="input-xlarge" id="-" placeholder="Acquisitiondate" value="<%= _.escape(item.get('acquisitiondate') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="scopecontentInputContainer" class="control-group">
 					<label class="control-label" for="scopecontent">Scopecontent</label>
 					<div class="controls inline-inputs">
-						<textarea class="input-xlarge" id="scopecontent" rows="3"><%= _.escape(item.get('scopecontent') || '') %></textarea>
+						<textarea class="input-xlarge" id="transcricao texto" rows="3"><%= _.escape(item.get('scopecontent') || '') %></textarea>
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="originalexistenceInputContainer" class="control-group">
 					<label class="control-label" for="originalexistence">Originalexistence</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="originalexistence" placeholder="Originalexistence" value="<%= _.escape(item.get('originalexistence') || '') %>">
+						<input type="text" class="input-xlarge" id="originalexistence" placeholder="-" value="<%= _.escape(item.get('originalexistence') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="originallocationInputContainer" class="control-group">
 					<label class="control-label" for="originallocation">Originallocation</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="originallocation" placeholder="Originallocation" value="<%= _.escape(item.get('originallocation') || '') %>">
+						<input type="text" class="input-xlarge" id="originallocation" placeholder="-" value="<%= _.escape(item.get('originallocation') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="repositorycodeInputContainer" class="control-group">
 					<label class="control-label" for="repositorycode">Repositorycode</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="repositorycode" placeholder="Repositorycode" value="<%= _.escape(item.get('repositorycode') || '') %>">
+						<input type="text" class="input-xlarge" id="repositorycode" placeholder="-" value="<%= _.escape(item.get('repositorycode') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="copyexistenceInputContainer" class="control-group">
 					<label class="control-label" for="copyexistence">Copyexistence</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="copyexistence" placeholder="Copyexistence" value="<%= _.escape(item.get('copyexistence') || '') %>">
+						<input type="text" class="input-xlarge" id="copyexistence" placeholder="-" value="<%= _.escape(item.get('copyexistence') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="copylocationInputContainer" class="control-group">
 					<label class="control-label" for="copylocation">Copylocation</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="copylocation" placeholder="Copylocation" value="<%= _.escape(item.get('copylocation') || '') %>">
+						<input type="text" class="input-xlarge" id="copylocation" placeholder="-" value="<%= _.escape(item.get('copylocation') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="legalaccessInputContainer" class="control-group">
 					<label class="control-label" for="legalaccess">Legalaccess</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="legalaccess" placeholder="Legalaccess" value="<%= _.escape(item.get('legalaccess') || '') %>">
+						<input type="text" class="input-xlarge" id="legalaccess" placeholder="-" value="<%= _.escape(item.get('legalaccess') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="accessconditionInputContainer" class="control-group">
 					<label class="control-label" for="accesscondition">Accesscondition</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="accesscondition" placeholder="Accesscondition" value="<%= _.escape(item.get('accesscondition') || '') %>">
+						<input type="text" class="input-xlarge" id="accesscondition" placeholder="-" value="<%= _.escape(item.get('accesscondition') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="reproductionrightsInputContainer" class="control-group">
 					<label class="control-label" for="reproductionrights">Reproductionrights</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="reproductionrights" placeholder="Reproductionrights" value="<%= _.escape(item.get('reproductionrights') || '') %>">
+						<input type="text" class="input-xlarge" id="reproductionrights" placeholder="1" value="<%= _.escape(item.get('reproductionrights') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="reproductionrightsdescriptionInputContainer" class="control-group">
-					<label class="control-label" for="reproductionrightsdescription">Reproductionrightsdescription</label>
+					<label class="control-label" for="reproductionrightsdescription">licença de uso</label>
 					<div class="controls inline-inputs">
 						<textarea class="input-xlarge" id="reproductionrightsdescription" rows="3"><%= _.escape(item.get('reproductionrightsdescription') || '') %></textarea>
 						<span class="help-inline"></span>
@@ -348,21 +348,21 @@
 				<div id="itemdateInputContainer" class="control-group">
 					<label class="control-label" for="itemdate">Itemdate</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="itemdate" placeholder="Itemdate" value="<%= _.escape(item.get('itemdate') || '') %>">
+						<input type="text" class="input-xlarge" id="itemdate" placeholder="ano" value="<%= _.escape(item.get('itemdate') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="publishdateInputContainer" class="control-group">
 					<label class="control-label" for="publishdate">Publishdate</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="publishdate" placeholder="Publishdate" value="<%= _.escape(item.get('publishdate') || '') %>">
+						<input type="text" class="input-xlarge" id="publishdate" placeholder="ano" value="<%= _.escape(item.get('publishdate') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="publisherInputContainer" class="control-group">
 					<label class="control-label" for="publisher">Publisher</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="publisher" placeholder="Publisher" value="<%= _.escape(item.get('publisher') || '') %>">
+						<input type="text" class="input-xlarge" id="publisher" placeholder="só da revista" value="<%= _.escape(item.get('publisher') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
@@ -376,7 +376,7 @@
 				<div id="ispublicInputContainer" class="control-group">
 					<label class="control-label" for="ispublic">Ispublic</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="ispublic" placeholder="Ispublic" value="<%= _.escape(item.get('ispublic') || '') %>">
+						<input type="text" class="input-xlarge" id="ispublic" placeholder="-" value="<%= _.escape(item.get('ispublic') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
@@ -390,7 +390,7 @@
 				<div id="punctuationInputContainer" class="control-group">
 					<label class="control-label" for="punctuation">Punctuation</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="punctuation" placeholder="Punctuation" value="<%= _.escape(item.get('punctuation') || '') %>">
+						<input type="text" class="input-xlarge" id="punctuation" placeholder="-" value="<%= _.escape(item.get('punctuation') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
@@ -402,7 +402,7 @@
 					</div>
 				</div>
 				<div id="otherinformationInputContainer" class="control-group">
-					<label class="control-label" for="otherinformation">Otherinformation</label>
+					<label class="control-label" for="otherinformation">Observações</label>
 					<div class="controls inline-inputs">
 						<textarea class="input-xlarge" id="otherinformation" rows="3"><%= _.escape(item.get('otherinformation') || '') %></textarea>
 						<span class="help-inline"></span>
@@ -411,84 +411,84 @@
 				<div id="idfatherInputContainer" class="control-group">
 					<label class="control-label" for="idfather">Idfather</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="idfather" placeholder="Idfather" value="<%= _.escape(item.get('idfather') || '') %>">
+						<input type="text" class="input-xlarge" id="idfather" placeholder="1" value="<%= _.escape(item.get('idfather') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="titledefaultInputContainer" class="control-group">
 					<label class="control-label" for="titledefault">Titledefault</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="titledefault" placeholder="Titledefault" value="<%= _.escape(item.get('titledefault') || '') %>">
+						<input type="text" class="input-xlarge" id="titledefault" placeholder="1" value="<%= _.escape(item.get('titledefault') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="subitemInputContainer" class="control-group">
 					<label class="control-label" for="subitem">Subitem</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="subitem" placeholder="Subitem" value="<%= _.escape(item.get('subitem') || '') %>">
+						<input type="text" class="input-xlarge" id="subitem" placeholder="1" value="<%= _.escape(item.get('subitem') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="deletecomfirmInputContainer" class="control-group">
 					<label class="control-label" for="deletecomfirm">Deletecomfirm</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="deletecomfirm" placeholder="Deletecomfirm" value="<%= _.escape(item.get('deletecomfirm') || '') %>">
+						<input type="text" class="input-xlarge" id="-" placeholder="-" value="<%= _.escape(item.get('deletecomfirm') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="typeitemInputContainer" class="control-group">
 					<label class="control-label" for="typeitem">Typeitem</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="typeitem" placeholder="Typeitem" value="<%= _.escape(item.get('typeitem') || '') %>">
+						<input type="text" class="input-xlarge" id="typeitem" placeholder="1" value="<%= _.escape(item.get('typeitem') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="editionInputContainer" class="control-group">
 					<label class="control-label" for="edition">Edition</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="edition" placeholder="Edition" value="<%= _.escape(item.get('edition') || '') %>">
+						<input type="text" class="input-xlarge" id="edition" placeholder="1a." value="<%= _.escape(item.get('edition') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="isexposedInputContainer" class="control-group">
 					<label class="control-label" for="isexposed">Isexposed</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="isexposed" placeholder="Isexposed" value="<%= _.escape(item.get('isexposed') || '') %>">
+						<input type="text" class="input-xlarge" id="isexposed" placeholder="-" value="<%= _.escape(item.get('isexposed') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="isoriginalInputContainer" class="control-group">
 					<label class="control-label" for="isoriginal">Isoriginal</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="isoriginal" placeholder="Isoriginal" value="<%= _.escape(item.get('isoriginal') || '') %>">
+						<input type="text" class="input-xlarge" id="isoriginal" placeholder="-" value="<%= _.escape(item.get('isoriginal') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="ispartInputContainer" class="control-group">
 					<label class="control-label" for="ispart">Ispart</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="ispart" placeholder="Ispart" value="<%= _.escape(item.get('ispart') || '') %>">
+						<input type="text" class="input-xlarge" id="ispart" placeholder="-" value="<%= _.escape(item.get('ispart') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="haspartInputContainer" class="control-group">
 					<label class="control-label" for="haspart">Haspart</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="haspart" placeholder="Haspart" value="<%= _.escape(item.get('haspart') || '') %>">
+						<input type="text" class="input-xlarge" id="haspart" placeholder="-" value="<%= _.escape(item.get('haspart') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="ispartofInputContainer" class="control-group">
 					<label class="control-label" for="ispartof">Ispartof</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="ispartof" placeholder="Ispartof" value="<%= _.escape(item.get('ispartof') || '') %>">
+						<input type="text" class="input-xlarge" id="ispartof" placeholder="-" value="<%= _.escape(item.get('ispartof') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="numberofcopiesInputContainer" class="control-group">
 					<label class="control-label" for="numberofcopies">Numberofcopies</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="numberofcopies" placeholder="Numberofcopies" value="<%= _.escape(item.get('numberofcopies') || '') %>">
+						<input type="text" class="input-xlarge" id="numberofcopies" placeholder="1000" value="<%= _.escape(item.get('numberofcopies') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
@@ -505,21 +505,21 @@
 				<div id="creationdateattributedInputContainer" class="control-group">
 					<label class="control-label" for="creationdateattributed">Creationdateattributed</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="creationdateattributed" placeholder="Creationdateattributed" value="<%= _.escape(item.get('creationdateattributed') || '') %>">
+						<input type="text" class="input-xlarge" id="creationdateattributed" placeholder="-" value="<%= _.escape(item.get('creationdateattributed') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="itemdateattributedInputContainer" class="control-group">
 					<label class="control-label" for="itemdateattributed">Itemdateattributed</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="itemdateattributed" placeholder="Itemdateattributed" value="<%= _.escape(item.get('itemdateattributed') || '') %>">
+						<input type="text" class="input-xlarge" id="itemdateattributed" placeholder="-" value="<%= _.escape(item.get('itemdateattributed') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
 				<div id="publishdateattributedInputContainer" class="control-group">
 					<label class="control-label" for="publishdateattributed">Publishdateattributed</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="publishdateattributed" placeholder="Publishdateattributed" value="<%= _.escape(item.get('publishdateattributed') || '') %>">
+						<input type="text" class="input-xlarge" id="publishdateattributed" placeholder="-" value="<%= _.escape(item.get('publishdateattributed') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
@@ -533,7 +533,7 @@
 				<div id="itemmediadirInputContainer" class="control-group">
 					<label class="control-label" for="itemmediadir">Itemmediadir</label>
 					<div class="controls inline-inputs">
-						<input type="text" class="input-xlarge" id="itemmediadir" placeholder="Itemmediadir" value="<%= _.escape(item.get('itemmediadir') || '') %>">
+						<input type="text" class="input-xlarge" id="itemmediadir" placeholder="codigo0x" value="<%= _.escape(item.get('itemmediadir') || '') %>">
 						<span class="help-inline"></span>
 					</div>
 				</div>
